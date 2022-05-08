@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+}
+
+section {
+    width:700px;
+    border-radius: 5px;
+    margin: 100px auto;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+}
+
+.upper {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h4 {
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    
+}
+
+span {
+    color:hsl(277, 64%, 61%);
+}
+
+p {
+    font-size: 15px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+}
+
+p.up {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+div.lower {
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: uppercase;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.lower p {
+    font-size: 13px;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+
+div.stats {
+    line-height: 1.5em;
+}
+
+.box1 {
+    padding: 30px;
+}
+
+.box2 {
+    background: linear-gradient(hsla(277, 64%, 61%, 0.651), hsla(277, 64%, 61%, 0.651)),
+    url('images/image-header-desktop.jpg') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.box {
+    flex:0 1 350px;
+}
+div.stats p {
+    font-size: 11px;
+
+}
