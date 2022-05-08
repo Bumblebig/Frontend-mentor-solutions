@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.google.com/specimen/Karla');
+
+body {
+    margin:0px auto;
+    max-width:1440px;
+    min-width: 375px;
+    width:100%;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'karla',sans-serif;
+}
+
+.container {
+    width: 535px;
+    margin: 50px auto;
+}
+
+.upper {
+    background-color: white;
+    padding: 35px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h3 {
+    font-weight: 700;
+    color:hsl(179, 62%, 43%);
+    margin-bottom: 15px;
+}
+
+h4 {
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+p.uptxt {
+    font-weight: 400;
+    font-size: 15px;
+    color:hsl(218, 22%, 67%);
+}
+
+.f {
+    margin-bottom: 7px;
+}
+
+.lower {
+    display:flex;
+}
+
+.box1 {
+    background-color:hsl(179, 62%, 43%) ;
+    padding: 20px 25px 30px 20px;
+    box-sizing: inherit;
+    width:50%;
+    color:white;
+    border-radius: 0px 0px 0px 10px;
+}
+
+h5{
+    margin-bottom: 10px;
+}
+
+p.price {
+    margin-bottom: 10px;
+}
+
+span.dollar {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+span.dur {
+    font-weight: 400;
+    font-size: 14px;
+    color:hsl(216, 24%, 84%);
+    margin-left: 3px;
+}
+
+.price2 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+button {
+    cursor: pointer;
+    width:100%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 10px auto 0px auto;
+    background-color: hsl(71, 73%, 54%);
+    color:white;
+    border: none;
+    box-shadow: -2px 3px 3px hsla(0, 1%, 56%, 0.685), 2px 0px 3px hsla(0, 1%, 56%, 0.685);
+}
+
+.box2 {
+    background-color: hsl(179, 62%, 49%);
+    padding: 20px 25px 20px 20px;
+    box-sizing: inherit;
+    width:50%;
+    color:white;
+    border-radius: 0px 0px 10px 0px;
+}
+
+ul {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+@media screen and (max-width:550px) {
+    div.container {
+        width:90%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .box1 {
+        border-radius: 0px;
+    }
+
+    .box2 {
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .lower {
+        display: flex;
+        flex-flow: column;
+    }
+
+
+}
