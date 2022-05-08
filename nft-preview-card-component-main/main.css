@@ -1,0 +1,136 @@
+/* \\GENERAL DESIGN\\ */
+
+* {
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+
+ body {
+     margin: 0px auto;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    max-width: 1440px;
+    min-width: 375px;
+    width:100%;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* \\SECTION DESIGN\\ */
+
+section {
+    width:310px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius:0.5rem ;
+    margin:50px auto 50px auto;
+    padding: 25px 0px;
+}
+
+div.image {
+    cursor: pointer;
+    width:265px;
+    height: 265px;
+    margin: 0px auto;
+    border-radius: 0.5rem;
+    background:url(images/image-equilibrium.jpg) no-repeat center scroll;
+    background-size: 100% 100%;
+}
+
+.image:hover {
+    background: url(images/icon-view.svg) no-repeat center scroll,
+    linear-gradient(45deg,hsl(178, 100%, 50%,0.651), hsl(178, 100%, 50%,0.651)),
+    url(images/image-equilibrium.jpg) no-repeat center scroll;
+    /* background-size: 32px px, 100% 100%; */
+}
+
+div.text {
+    padding: 25px 25px 15px 25px;
+}
+
+div.text p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+}
+
+div.text p:first-child {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+}
+
+div.text p:first-child:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+
+.price-duration {
+    padding: 0px 25px 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-eth {
+    margin-right: 0.5em;
+    position: relative;
+    top:3.5px;
+}
+
+.img-clock {
+    position: relative;
+    margin-right: 0.1em;
+    top:3.5px;
+}
+
+.price-duration p:first-child {
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price-duration p.dur {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+hr {
+    height: 1px;
+    width:16.5rem;
+    margin: 0px auto;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.foot {
+    padding: 12px 25px 0px 25px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.avatar {
+    width: 33px;
+    height: auto;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+
+div.foot p {
+    color:hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+span {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
