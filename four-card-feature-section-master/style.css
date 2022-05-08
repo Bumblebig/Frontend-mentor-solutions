@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    margin:0px auto;
+    max-width: 1440px;
+    min-width: 375px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size:15px;
+    font-weight: 400;
+    color:hsl(229, 6%, 66%);
+    line-height: 1.5em;
+}
+
+.container {
+    width:90%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 50px auto 0px auto;
+}
+
+h1, h3 {
+    color:hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+h1.one, h1.two {
+    text-align: center;
+    line-height: 1.2em;
+}
+
+h1.one {
+    font-weight: 200;
+}
+
+
+p.header {
+    text-align: center;
+    width:467.16px;
+    margin: 15px auto 10px auto;
+}
+
+div.cards {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(19, 43.2px);
+    grid-template-rows: repeat(9, 50px);
+    column-gap: 1.5em;
+    row-gap: 1.4em;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box {
+    min-width: 100px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 5px;
+    box-shadow: 0px 7px 7px 3px hsla(229, 6%, 66%, 0.445);
+}
+
+.box1 {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column: 3 / 8;
+    grid-row: 2 / 8;
+}
+
+.box2 {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column: 8 / 13;
+    grid-row: 2 / 5;
+}
+
+.box3 {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-column: 8 / 13;
+    grid-row: 4 / 9;
+}
+
+.box4 {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column: 13 / 18;
+    grid-row: 2 / 8;
+}
+
+p.bxp {
+    margin-top: 10px;
+}
+
+img.bximg {
+    width:15%;
+    height: auto;
+    margin-top: 20px;
+    position: relative;
+    left: 75%;
+}
