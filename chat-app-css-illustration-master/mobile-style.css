@@ -35,7 +35,7 @@
 
     @keyframes phone {
         0%{ transform: translateX(-700px) scale(0.9); }
-        100%{ transform: translateX(0); }
+        100%{ transform: translateX(0) scale(0.9); }
     }
 
 }
@@ -52,12 +52,15 @@ div.container {
     gap: 100px;
     background-color: hsla(0, 0%, 100%, 0.897);
     margin-bottom: -0.52px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .attribution {
     margin: 0px auto;
     background-color: hsla(0, 0%, 100%, 0.897);
-    padding: 20px 0px;
+    padding: 20px 0px 18px 0px;
 }
 
 div.round-box {
@@ -98,7 +101,7 @@ p.outer-text {
 
 @keyframes phone {
     0%{ transform: translateX(-700px) scale(0.98); }
-    100%{ transform: translateX(0); }
+    100%{ transform: translateX(0) scale(0.98); }
 }
 
 @keyframes text {
