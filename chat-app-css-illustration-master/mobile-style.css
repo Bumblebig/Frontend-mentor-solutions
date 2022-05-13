@@ -1,4 +1,8 @@
 @media only screen and (max-width:770px) {
+    
+    body {
+        height: 100%;
+    }
 
     div.container {
         gap:150px;
@@ -29,9 +33,18 @@
         top: 6%;
     }
 
+    @keyframes phone {
+        0%{ transform: translateX(-700px) scale(0.9); }
+        100%{ transform: translateX(0); }
+    }
+
 }
 
 @media only screen and (max-width:600px) {
+
+    body {
+        height: 100%;
+    }
 
 div.container {
     display: flex;
@@ -81,6 +94,22 @@ p.outer-text {
     min-width: 200px;
     max-height: 530px;
     min-height: 480px;
+}
+
+@keyframes phone {
+    0%{ transform: translateX(-700px) scale(0.98); }
+    100%{ transform: translateX(0); }
+}
+
+@keyframes text {
+    0%,30%,40%,50%{ opacity: 0; }
+    80%{ opacity: 70%; }
+    100%{ opacity: 100; }
+}
+
+@keyframes heading {
+    0%{ transform: translateX(300px); opacity: 0; }
+    100%{ transform: translateX(0); opacity: 100; }
 }
 
 }
