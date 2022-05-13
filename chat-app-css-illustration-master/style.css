@@ -81,7 +81,7 @@ p.outer-text {
     font-weight: 400;
     line-height: 1.8em;
     color: hsl(270, 7%, 64%);
-    animation: 7s text ease-out .9s;
+    animation: 6s text ease-out 0s;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
@@ -286,8 +286,7 @@ div.input p:last-child {
 }
 
 @keyframes text {
-    0%,10%,30%{ opacity: 0; }
-    50%{ opacity:50; }
+    0%,30%,40%,50%{ opacity: 0; }
     80%{ opacity: 70%; }
     100%{ opacity: 100; }
 }
