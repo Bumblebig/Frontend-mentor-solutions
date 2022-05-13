@@ -1,0 +1,464 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width:1440px;
+    min-width: 375px;
+    width: 100%; 
+     background-color: hsl(218, 28%, 13%);
+    color:hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Open Sans', Sans-Serif;
+}
+
+.contena {
+    background-color: hsl(217, 28%, 15%);
+}
+
+header {
+    font-family: 'Raleway', Sans-Serif;
+}
+
+a:link {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:visited {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.head-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    margin:0px auto 50px auto;
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+  nav ul.head {
+    display: flex;
+    gap:3em;
+    list-style-type: none;
+}
+
+
+p {
+    line-height: 1.5em;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.introcont {
+    margin: 10px auto; 
+    text-align: center;
+    padding-bottom: 150px;
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: stretch;
+    margin-bottom: 0px;
+}
+
+img.introimg {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 30px;
+}
+
+.text {
+    width: 45rem;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+p.it {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width:75%;
+    margin-bottom: 30px;
+    line-height:1.6em;
+}
+
+.tflex {
+    background-color: hsl(218, 28%, 13%);
+}
+
+button {
+    background: linear-gradient( to right,hsl(176, 68%, 64%)2%,hsl(198, 60%, 50%) );
+    margin: 0 auto;
+    text-align: center;
+    width:12.5rem;
+    height: 3rem;
+    border-style: none;
+    border-radius: 35px 35px/40px 40px;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Raleway';
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.466), hsla(0, 0%, 100%, 0.466)),
+     linear-gradient( to right,hsl(176, 68%, 64%)2%,
+     hsl(198, 60%, 50%) );
+     
+}
+
+button:active {
+    transform: scale(0.85);
+}
+
+
+.bx {
+    width:30%;
+    padding: 1%;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.rowflex{ 
+    margin-bottom: 10px;
+    width:80%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap:30px;
+    margin: 50px auto 0px auto;
+    margin-top: 0px;
+ }
+
+ .bx1, .bx2,.bx3,.bx4 {
+     width:410px;
+     padding: 10px;
+ }
+
+ div.bx1 + p,div.bx2 + p,div.bx3 + p,div.bx4  + p {
+     line-height: 5em;
+ }
+
+ .rwflex {
+
+    width:80%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap:30px;
+    margin: 50px auto;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+ }
+
+ .prodcont {
+     padding: 0px;
+     width:90%;
+     margin:0px auto 50px auto;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     gap:30px;
+     flex-flow:row wrap;
+ }
+
+ img.prodimage {
+     width:500px;
+     height: auto;
+     max-width:100%;
+     flex: 1 0;
+ }
+
+ .prodtext {
+     flex:1 0;
+ }
+
+h2 {
+    margin-bottom: 10px;
+    padding: 0px;
+    width:55%;
+    line-height: 1.5em;
+    font-family: 'Raleway', Sans-Serif;
+}
+
+ .par {
+     margin-bottom: 10px;
+ }
+
+ 
+.fylowork {
+    padding-bottom: 2px;
+    width:145px;
+    position: relative;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+ .fylowork {
+    color:hsl(176, 68%, 64%);
+}
+
+p.fylowork:hover {
+    color:  hsl(0, 0%, 100%);
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+
+img.arrow, .arrow{
+    position: absolute;
+    top:3.2px;
+    right:0px;
+}
+
+.testimonies {
+    position:relative;
+     padding: 80px 10px 250px 10px;
+     width:95%;
+     margin:0px auto;
+     display: flex;
+     flex-flow:row wrap;
+     gap:20px;
+}
+
+.quotes {
+    position: absolute;
+    top: 45px;
+    left:-0.5px;
+}
+
+.boxes {
+    width:40%;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding:15px;
+    flex:1 0;
+    position: relative;
+}
+
+img.profile {
+    width:40px;
+    height: auto;
+    border-radius: 50px;
+}
+
+p.name {
+    font-weight: bold;
+}
+
+p.founding {
+    font-size: 12px;
+}
+
+.imageside {
+    margin-top: 20px;
+    display: flex;
+    gap:5px;
+}
+
+.signup {
+    background-color:hsl(217, 28%, 15%) ;
+    margin:0 auto;
+    width:70%;
+    border-radius:20px;
+    padding:30px;
+    position: absolute;
+    left:15%;
+    top:-35%;
+}
+
+.sign {
+    text-align:center;
+}
+
+.signtext {
+    text-align: center;
+    font-size: 14px;
+    width:80%;
+    margin: 0 auto;
+}
+
+.mailnbutton {
+    width:90%;
+    margin: 30px auto 0 auto;
+}
+
+form {
+    margin: 0 auto;
+    padding-right: 0px;
+}
+
+div.actcont {
+    display:flex;
+    align-items: center;
+    gap:1em;
+    flex-flow: row nowrap;
+}
+
+
+
+input {
+    box-sizing: border-box;
+    width: 40vw;
+    height:45px;
+    border-radius: 30px 30px 30px 30px;
+    border-style: none;
+    padding:25px;
+    flex: 1 0 ;
+}
+
+.bt {
+    flex:1;
+}
+
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    padding-bottom: 50px;
+    padding-top: 200px;
+    position: relative;
+}
+
+.futa1 {
+    width:95%;
+    margin: 0 auto;
+}
+
+.futa {
+    display:flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap:3em;
+}
+
+.futa-lorem {
+    display: flex;
+    align-items: flex-start;
+    gap:1em;
+}
+
+.futa-logo {
+    width:120px;
+    height:auto;
+    margin-bottom: 25px;
+}
+
+.fcol,.scol,.tcol,.focol {
+    flex:1 0;
+}
+
+
+.lorem,.pno,.email {
+    font-size: 12px;
+}
+
+.tel{
+    display: flex;
+    align-items: flex-start;
+    gap:0.3em;
+    margin-bottom: 10px;
+}
+
+.mail {
+    display: flex;
+    align-items: flex-start;
+    gap:0.5em;
+}
+
+nav ul.foota, nav ul.foota2 {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    gap:0.5em;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Raleway', Sans-Serif;
+}
+
+nav.foot-nav,ul.foolist{
+    width:100%;
+}
+
+img.fb,img.twitter,img.insta {
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(4deg) brightness(108%) contrast(101%);
+    width:30px;
+    height:auto;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+    left:-3%;
+}
+
+div.social {
+    padding: 0px;
+}
+
+@media screen and (max-width:950px) {
+    .signup {
+        padding: 30px 10px;
+        width:80%;
+        left:10%;
+        top:-30%;
+    }
+
+    h1.sign {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .signtext {
+        width: 95%;
+    }
+
+    div.actcont {
+        display:flex;
+        flex-flow: column;
+        gap:1em;
+    }
+
+    input, .input, .button2, .bt {
+        width:100%;
+    }
+
+    div.social {
+        margin: 0px auto;
+    }
+
+    img.fb,img.twitter,img.insta {
+        width:32px;
+        height:auto;
+    }
+
+    img.fb,img.twitter {
+        margin-right: 15px;
+    }
+}

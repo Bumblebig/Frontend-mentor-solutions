@@ -1,0 +1,242 @@
+@media screen and (max-width:650px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100%;
+    }
+    
+    body {
+        width: 100%; 
+         background-color: hsl(218, 28%, 13%);
+        color:hsl(0, 0%, 100%);
+        font-size: 14px;
+        font-family: 'Open Sans', verdana, Tahoma;
+    }
+
+    .contena {
+        background-color: hsl(217, 28%, 15%);
+    }
+    
+    header {
+        font-family: 'Raleway', monospace;
+    }
+
+    div.head-nav {
+        padding-top:40px;
+    }
+
+    .logo {
+        width: 65%;
+        height: auto;
+    }
+    
+    a:link {
+        color:hsl(0, 0%, 100%);
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color:hsl(0, 0%, 100%);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color:hsl(0, 0%, 100%);
+        text-decoration: none;
+    }
+
+    .head-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:90%;
+        margin:0px auto 50px auto;
+        padding-top: 100px;
+        font-weight: 400;
+    }
+
+    nav ul.head {
+        display: flex;
+        gap:1em;
+        list-style-type: none;
+    }
+
+    .introcont {
+        margin: 10px auto; 
+        text-align: center;
+        padding-bottom:0;
+        background-image: url('images/bg-curvy-mobile.svg');
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+        margin-bottom: 0px;
+    }
+
+    img.introimg {
+        max-width: 100%;
+        width:80%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        width:90%;
+        padding: 0px;
+        font-weight: 700;
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin: 0 auto 2S0px auto;
+        text-align: center;
+        font-size: 25px;
+        
+    }
+
+    p.it {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        width:80%;
+        margin-bottom: 30px;
+        line-height:1.6em;
+    }
+
+    .tflex {
+        background-color: hsl(218, 28%, 13%);
+        padding-top: 100px;
+    }
+
+    button {
+        background: linear-gradient( to right,hsl(176, 68%, 64%)2%,hsl(198, 60%, 50%) );
+        margin: 0 auto;
+        text-align: center;
+        width:15.5rem;
+        height: 3rem;
+        border-style: none;
+        border-radius: 35px 35px/40px 40px;
+        color:hsl(0, 0%, 100%);
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .rowflex,.rwflex {
+        display: flex;
+        flex-flow: column;
+        gap:50px;
+        width: 90%;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+
+    .bx {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .prodcont {
+        display:flex;
+        flex-flow: column;
+        width: 90%;
+    }
+
+    img.prodimage {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .prodtext {
+        padding:10px;
+        width:80%;
+    }
+
+    h2 {
+        width: 100%;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+    }
+
+    .testimonies {
+        position: relative;
+        width:85%;
+        display: flex;
+        flex-flow: column;
+        gap:20px;
+        padding-bottom: 350px;
+    }
+
+    img.quotes {
+        width:25px;
+        height: auto;
+        position: absolute;
+        top:64px;
+        left:65px;
+    }
+
+    .boxes {
+        width:80%;
+        margin: 0px auto;
+        position: relative;
+    }
+
+    .signup {
+        padding: 30px 10px;
+        width:80%;
+        left:10%;
+        top:-30%;
+    }
+
+    h1.sign {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .signtext {
+        width: 95%;
+    }
+
+    div.actcont {
+        display:flex;
+        flex-flow: column;
+        gap:1em;
+    }
+
+    input, .input, .button2, .bt {
+        width:100%;
+    }
+
+    .futa1 {
+        width: 80%;
+    }
+
+    .futa-logo {
+        width: 146px;
+        height: auto;
+    }
+
+    .futa {
+        display: flex;
+        flex-flow: column;
+        gap:3em;
+    }
+
+    .tel {
+        margin-bottom: 20px;
+    }
+
+    nav ul.foota, nav ul.foota2 {
+        gap:1em;
+        font-size: 14px;
+    }
+}    
