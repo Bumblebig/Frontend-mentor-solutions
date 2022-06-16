@@ -1,0 +1,280 @@
+/*********** GENERAL DESIGN ************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 41%);
+    max-width: 1440px;
+    min-width: 375px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+
+/********* HEADER ELEMENTS DESIGN ********/
+
+header {
+    padding: 20px 20px 20px 30px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.mob {
+    display: none;
+}
+
+main.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: flex-start;
+    gap: 50px;
+}
+
+img.logo {
+    width:80px;
+    height: 25px;
+}
+
+.arr-down {
+    display:inline-block;
+    position: relative;
+    top: -1px;
+    left: 6px;
+}
+
+.arr-down2 {
+    display:inline-block;
+    position: relative;
+    top: -1px;
+    left: 6px;
+}
+
+.dropdowns {
+    display: block;
+    position: absolute;
+    z-index: 1000;
+    font-size: 14px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    box-shadow: -8px 8px 25px 5px rgba(128, 128, 128, 0.315);
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+
+main.dropdowns ul li {
+    cursor: pointer;
+    list-style-type: none;
+    line-height: 2em;
+    padding: 0px 20px;
+}
+
+main.dropdowns ul li:focus, main.dropdowns ul li:hover {
+    background-color: hsl(42, 35%, 93%);
+}
+
+main.dropdowns ul li img {
+    margin-right: 15px;
+}
+
+.features {
+    top: 65px;
+    left: 120px;
+}
+
+main.company {
+    top: 65px;
+    left: 275px;
+}
+
+ul.nav li {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+ul li:focus, ul li:hover {
+    color: hsl(0, 0%, 8%);
+}
+
+
+ul.logins li {
+    padding: 8px 15px;
+    margin-right: 15px;
+}
+
+ul.logins li:last-of-type {
+    border: 1.5px solid hsl(0, 0%, 41%);
+    border-radius: 8px;
+}
+
+ul.logins li:last-of-type:hover {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+}
+
+img.menu {
+    cursor: pointer;
+    display: none;
+    width: 30px;
+    height: 18px;
+}
+
+
+
+/************ SECTION ELEMENTS DESIGN *************/
+
+section {
+    width: 90%;
+    padding-left: 8%;
+    padding-top: 30px;
+    margin: 20px auto 50px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    column-gap: 50px;
+}
+
+h1 {
+    color:hsl(0, 0%, 8%);
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 430px;
+}
+
+main.text {
+    grid-column: 1;
+    padding-top: 55px;
+}
+
+p {
+    width: 400px;
+    margin-bottom:50px;
+    line-height: 1.5em;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px 25px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+button:hover, button:focus {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    border: 1px solid hsl(0, 0%, 8%);
+
+}
+
+section div {
+    margin-top: 100px;
+}
+
+section div img {
+    margin-right: 30px;
+}
+
+section div img:last-of-type {
+    margin-right: 0px;
+}
+
+/* main.text div {
+    background-color: blue;
+} */
+
+main.images {
+    grid-column: 2;
+    width: 90%;
+}
+
+img.hero {
+    width: 420px;
+}
+
+img.hero-mob {
+    display: none;
+}
+
+/************** ASIDE PART DESIGN ***************/
+
+aside {
+    display: none;
+    position: absolute;
+    background-color: hsla(0, 0%, 8%, 0.377);
+    width: 100%;
+    height: 100%;
+    z-index: 5000;
+    top:0px;
+    left: 0px;
+    backdrop-filter: blur(2px);
+}
+
+main.main {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    top:0px;
+    left: 30%;
+    background-color: hsl(0, 0%, 98%);
+    padding: 20px 5px;
+}
+
+img.close {
+    cursor: pointer;
+    position: relative;
+    left: 87%;
+    top:16px
+}
+
+ul.side {
+    padding-top: 20px;
+}
+
+ul.side li {
+    list-style-type: none;
+    line-height: 3em;
+    font-size: 18px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+ul.feat-list, ul.company-list {
+    position: relative;
+    left: 35px;
+    width: 80%;
+}
+
+ul.side li:hover, ul.feat-list li:hover, ul.company-list li:hover {
+    background-color: hsl(42, 35%, 93%);
+}
+
+ul.feat-list li, ul.company-list li {
+    line-height: 2.4em;
+    cursor: pointer;
+}
+
+ul.feat-list li img {
+    margin-right: 15px;
+}
+
+.drop {
+    display: none;
+}
+
+p#script1, p#script2 {
+    display: none;
+}

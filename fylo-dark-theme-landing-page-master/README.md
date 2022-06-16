@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/fylo-dark-theme-landing-page-master)
+- Live Site URL: [Live Site](https://bumblebig.github.io/frontend-mentor-solutions/fylo-dark-theme-landing-page-master/)
 
 ## My process
 
@@ -42,5 +42,6 @@ Users should be able to:
 
 ## Author
 
+- GitHub - [@Bumblebig](https://www.github.com/Bumblebig)
 - Frontend Mentor - [@Bumblebig](https://www.frontendmentor.io/profile/Bumblebig)
 - Twitter - [@RealCecil4](https://www.twitter.com/RealCecil4)

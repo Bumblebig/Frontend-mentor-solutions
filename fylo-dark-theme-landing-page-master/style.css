@@ -335,10 +335,20 @@ input {
     flex: 1 0 ;
 }
 
+input:focus {
+    outline: 1px solid gray;
+}
+
 .bt {
     flex:1;
 }
 
+p#valid {
+    display: none;
+    color: hsl(0, 100%, 63%);
+    font-size: 13px;
+    margin: 10px 0px 0px 20px;
+}
 
 footer {
     background-color: hsl(216, 53%, 9%);

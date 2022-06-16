@@ -11,7 +11,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/four-card-feature-section-master)
+- Live Site URL: [Live Site](https//:bumblebig.github.io/frontend-mentor-solutions/four-card-feature-section-master/)
 
 ## My process
 
@@ -45,11 +44,6 @@ Users should be able to:
 
 ### What I learned
  I practiced my knowledge on CSS grid using this project. It was really helpfull
-
-### Continued development
-
-I'd love to broaden my knowledge about css grid
-
 
 ## Author
 

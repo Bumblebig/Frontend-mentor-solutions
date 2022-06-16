@@ -1,0 +1,368 @@
+@media only screen and (max-width: 1140px) {
+    section {
+        width: 91%;
+        column-gap: 30px;
+    }
+    h1 {
+        font-size: 55px;
+        width: 370px;
+    }
+
+    img.hero {
+        width: 380px;
+    }
+
+    section div {
+        margin-top: 80px;
+        width: 440px;
+    }
+
+    section div ul {
+        margin-right: 20px;
+    }
+
+    img.databiz {
+        width: 90px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 60px;
+    }
+
+    img.meet {
+        width: 70px;
+    }
+
+    img.maker {
+        width: 80px;
+        position: relative;
+        top: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 45px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        width: 310px;
+        margin-bottom: 25px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    section div {
+        margin-top: 50px;
+    }
+
+    img.hero {
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    img.databiz {
+        width: 75px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 45px;
+    }
+
+    img.meet {
+        width: 55px;
+    }
+
+    img.maker {
+        width: 65px;
+        position: relative;
+        top: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    section {
+        column-gap: 70px;
+    }
+    
+    h1 {
+        font-size: 35px;
+        width: 230px;
+    }
+
+    img.hero {
+        width: 270px;
+    }
+
+}
+
+@media only screen and (max-width: 704px) {
+
+    main.navigation {
+        gap: 30px;
+    }
+
+    img.logo {
+        width: 65px;
+    }
+
+    ul.nav li {
+        margin-right: 20px;
+    }
+
+    ul.logins li {
+        margin-right: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    header {
+        padding: 40px 25px;
+    }
+
+    aside {
+        display: block;
+    }
+
+    img.mob {
+        display: block;
+        width: 100px;
+        height: auto;
+    }
+
+    img.menu {
+        display: block;
+        width: 40px;
+        height: 25px;
+    }
+
+    main.navigation, main.reg {
+        display: none;
+    }
+
+    /*********** SECTION DESIGN PART **********/
+
+    section {
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    main.images {
+        order: 1;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    img.hero {
+        display: none;
+    }
+
+    img.hero-mob {
+        display: block;
+        width: 100%;
+    }
+
+    main.text {
+        order: 2;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 50px;
+    }
+
+    p {
+        width: 98%;
+        font-size: 18px;
+    }
+
+    button {
+        padding: 15px 25px;
+    }
+
+    section div {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
+    img.databiz {
+        width: 110px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 80px;
+    }
+
+    img.meet {
+        width: 90px;
+    }
+
+    img.maker {
+        width: 100px;
+        position: relative;
+        top: 3px;
+    }
+
+}
+
+@media only screen and (max-width:530px) {
+
+    img.mob {
+        width: 80px;
+    }
+
+    img.menu {
+        width: 30px;
+        height: 20px;
+    }
+
+    main.images {
+        margin-bottom: 35px;
+    }
+
+    h1 {
+        font-size: 45px;
+        padding: 0px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    img.databiz {
+        width: 90px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 60px;
+    }
+
+    img.meet {
+        width: 70px;
+    }
+
+    img.maker {
+        width: 80px;
+        position: relative;
+        top: 3px;
+    }
+
+    ul.side{
+        padding-top: 35px;
+    }
+
+    img.close {
+        left: 86%;
+    }
+
+    ul.side li, ul.feat-list li, ul.company-list li {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (max-width:435px) {
+
+    h1 {
+        font-size: 35px;
+    }
+
+    img.databiz {
+        width: 85px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 55px;
+    }
+
+    img.meet {
+        width: 65px;
+    }
+
+    img.maker {
+        width: 75px;
+        position: relative;
+        top: 3px;
+    }
+
+    img.close {
+        left: 84%;
+    }
+
+    ul.side {
+        padding-top: 30px;
+    }
+
+    ul.side li, ul.feat-list li, ul.company-list li {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    img.databiz {
+        width: 75px;
+    }
+
+    img.audiophile {
+        position: relative;
+        top: 5px;
+        width: 45px;
+    }
+
+    img.meet {
+        width: 55px;
+    }
+
+    img.maker {
+        width: 65px;
+        position: relative;
+        top: 3px;
+    }
+
+    img.close {
+        left: 81%;
+        height: 22px;
+    }
+
+    ul.side {
+        padding-top: 30px;
+    }
+
+    ul.side li, ul.feat-list li, ul.company-list li {
+        font-size: 15px;
+    }
+
+}
