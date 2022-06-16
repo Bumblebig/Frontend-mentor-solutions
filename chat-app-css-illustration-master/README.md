@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/chat-app-css-illustration-master)
-- Live Site URL: [Live Site](https://bumblebig.github.io/frontend-mentor-solutions/chat-app-css-illustration-master/)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/chat-app-css-illustration-master)
+- Live Site URL: [Live Site](https://bumblebig.github.io/Frontend-mentor-solutions/chat-app-css-illustration-master/)
 
 ## My process
 

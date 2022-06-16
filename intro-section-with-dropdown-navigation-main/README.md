@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My-solution](https://github.com/Bumblebig/Frontend-Mentor-Solutions/intro-section-with-dropdown-navigation-main)
-- Live Site URL: [Live-site](https://bumblebig.github.io/intro-section-with-dropdown-navigation-main)
+- Solution URL: [My-solution](https://github.com/Bumblebig/Frontend-Mentor-Solutions/tree/main/intro-section-with-dropdown-navigation-main)
+- Live Site URL: [Live-site](https://bumblebig.github.io/Frontend-Mentor-Solutions/intro-section-with-dropdown-navigation-main)
 
 ## My process
 

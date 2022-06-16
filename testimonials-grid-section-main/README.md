@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/testimonials-grid-section-main)
-- Live Site URL: [Live Site](https://bumblebig.github.io/frontend-mentor-solutions/testimonials-grid-section-main/)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/testimonials-grid-section-main)
+- Live Site URL: [Live Site](https://bumblebig.github.io/Frontend-mentor-solutions/testimonials-grid-section-main/)
 
 ## My process
 

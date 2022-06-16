@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/stats-preview-card-component-main)
-- Live Site URL: [Live Site](https://bumblebig.github.io/frontend-mentor-solutions/stats-preview-card-component-main/)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/stats-preview-card-component-main)
+- Live Site URL: [Live Site](https://bumblebig.github.io/Frontend-mentor-solutions/stats-preview-card-component-main/)
 
 ## My process
 

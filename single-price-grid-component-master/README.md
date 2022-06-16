@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Bumblebig/Frontend-mentor-solutions/single-price-grid-component-master)
-- Live Site URL: [Add live site URL here](https://bumblebig.github.io/frontend-mentor-solutions/single-price-grid-component-master)
+- Solution URL: [Add solution URL here](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/single-price-grid-component-master)
+- Live Site URL: [Add live site URL here](https://bumblebig.github.io/Frontend-mentor-solutions/single-price-grid-component-master)
 
 ## My process
 

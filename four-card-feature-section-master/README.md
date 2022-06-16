@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/four-card-feature-section-master)
-- Live Site URL: [Live Site](https//:bumblebig.github.io/frontend-mentor-solutions/four-card-feature-section-master/)
+- Solution URL: [My Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/four-card-feature-section-master)
+- Live Site URL: [Live Site](https//:bumblebig.github.io/Frontend-mentor-solutions/four-card-feature-section-master/)
 
 ## My process
 
