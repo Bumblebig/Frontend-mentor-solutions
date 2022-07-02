@@ -1,0 +1,47 @@
+# Frontend Mentor - Easybank landing page solution
+
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+
+### Screenshot
+
+![desktop-view](screenshot/desktop.png)
+![mobile-view](screenshot/active.png)
+![active-state](screenshot/mobile-active.png)
+
+### Links
+
+- Solution URL: [My-solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/easybank-landing-page-master)
+- Live Site URL: [Live-site](https://bumblebig.github.io/Frontend-mentor-solutions/easybank-landing-page-master/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- JavaScript
+
+## Author
+
+- Frontend Mentor - [@Bumblebig](https://www.frontendmentor.io/profile/Bumblebig)
+- Twitter - [@RealCecil4](https://www.twitter.com/RealCecil4)

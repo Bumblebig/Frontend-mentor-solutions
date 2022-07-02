@@ -1,0 +1,467 @@
+@media only screen and (max-width: 1222px) {
+  /*********** BODY UPPER SECTION *****/
+
+  div.text, section.body-lower, footer /*middle section & footer*/ {
+    padding-left: 125px;
+  }
+
+  div.intro-image {
+    height: 625px;
+  }
+
+  /******* BODY MIDDLE SECTION ***********/
+
+  section.body-middle {
+    padding: 60px 100px 70px 125px;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  /*********** BODY UPPER SECTION *****/
+
+  div.text, section.body-lower, section.body-middle, footer /*middle section & footer*/ {
+    padding-left: 105px;
+  }
+
+  div.intro-image {
+    width: 58%;
+    height: 600px;
+  }
+
+  img.mockups {
+    width: 90%;
+    left: 25.5%;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 19px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /*********** BODY UPPER SECTION *****/
+
+  div.text, section.body-lower, section.body-middle, footer /*middle section & footer*/ {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  div.text {
+    width: 47%;
+  }
+
+  div.intro-image {
+    width: 55%;
+    height: 580px;
+  }
+
+  img.mockups {
+    width: 100%;
+    left: 16.5%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  /********** BODY MIDDLE SECTION STYLING **********/
+
+  section.body-middle {
+    padding-top: 50px;
+  }
+
+  section.reasons {
+    margin-top: 60px;
+    gap: 30px;
+  }
+
+  img.icon {
+    width: 55px;
+  }
+
+  section.reasons p {
+    font-size: 14px;
+  }
+
+  /********* BODY LOWER SECTION STYLING ***********/
+
+  section.body-lower {
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
+
+  article {
+    width: 30%;
+  }
+
+  h2.arts {
+    margin-bottom: 30px;
+  }
+
+  img.article-image {
+    height: 150px;
+  }
+
+  div.inner {
+    padding: 20px;
+  }
+
+  p.author {
+    font-size: 10px;
+    left: 0px;
+  }
+
+  p.content {
+    font-size: 12px;
+  }
+
+  /************ FOOTER SECTION STYLING *******/
+
+  footer {
+    padding-top: 50px;
+  }
+
+  img.social {
+    width: 15px;
+  }
+
+  nav.footer ul li {
+    font-size: 12px;
+  }
+
+  section.part2 button {
+    transform: scale(0.889);
+  }
+
+  section.part2 p {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /******** HEADER SECTION STYLING *******/
+  header {
+    display: none;
+  }
+
+  section.mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+
+  img.menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  /********* BODY UPPER SECTION STYLING ****************/
+
+  section.body-upper {
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
+  div.text {
+    width: 100%;
+    text-align: center;
+    order: 2;
+    padding: 10px 20px 120px 20px;
+  }
+
+  div.intro-image {
+    order: 1;
+    width: 100%;
+    background-image: url("images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+    height: 610px;
+  }
+
+  img.mockups {
+    display: block;
+    width: 72%;
+    position: static;
+    margin: 0px auto;
+  }
+
+  p.upper-paragraph {
+    margin-bottom: 20px;
+  }
+
+  div.actual-menu {
+    width: 70%;
+  }
+
+  /********** BODY MIDDLE SECTION STYLING **********/
+
+  section.body-middle {
+    width: 100%;
+    padding: 60px 20px 80px 20px;
+    background-color: hsl(220, 16%, 96%);
+    text-align: center;
+  }
+
+  section.reasons {
+    flex-flow: column nowrap;
+    padding: 0px 40px;
+  }
+
+  img.icon {
+    margin-bottom: 20px;
+  }
+
+  /********* BODY LOWER SECTION STYLING ***********/
+
+  section.body-lower {
+    padding: 60px 20px 80px 20px;
+    text-align: center;
+  }
+
+  div.articleS {
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  article {
+    width: 70%;
+  }
+
+  img.article-image {
+    width: 85%;
+    height: 250px;
+  }
+
+  p.author {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p.content {
+    font-size: 16px;
+  }
+
+  /************ FOOTER SECTION STYLING *******/
+
+  footer {
+    padding: 50px 20px 30px 20px;
+    flex-flow: column nowrap;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+  }
+
+  section.part1 {
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 25px;
+  }
+
+  section.part2 {
+    align-items: center;
+    gap: 25px;
+  }
+
+  div.box1 {
+    gap: 25px;
+  }
+
+  img.social {
+    margin-right: 5px;
+    width: 22px;
+  }
+
+  nav.footer ul li {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: 400;
+  }
+
+  nav.footer ul li:last-child {
+    margin-bottom: 0px;
+  }
+
+  section.part2 button {
+    width: 155.22px;
+    height: 45px;
+  }
+
+  section.part2 p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  div.intro-image {
+    height: 550px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  /********* BODY UPPER SECTION STYLING *******/
+
+  div.text {
+    padding: 0px 20px 150px 20px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  div.intro-image {
+    height: 480px;
+  }
+
+  p.upper-paragraph {
+    margin-bottom: 40px;
+  }
+
+  /******* BODY MIDDLE SECTION STYLING *****/
+
+  h2#middle-h2 {
+    width: 50%;
+    font-size: 35px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /********** BODY MIDDLE SECTION STYLING **********/
+
+  section.body-middle {
+    padding: 60px 20px 80px 20px;
+  }
+
+  section.reasons {
+    padding: 0px 20px;
+    margin-top: 50px;
+  }
+
+  section.reasons p {
+    font-size: 18px;
+  }
+
+  section.reasons h3 {
+    font-size: 25px;
+  }
+
+  img.icon {
+    margin-bottom: 10px;
+    width: 65px;
+  }
+
+  /********* BODY LOWER SECTION STYLING ********/
+
+  article {
+    width: 90%;
+  }
+
+  img.article-image {
+    width: 95%;
+    height: 300px;
+  }
+
+  div.inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+  }
+
+  p.author {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p.content {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  div.intro-image {
+    height: 400px;
+  }
+
+  div.text {
+    width: 95%;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  div.actual-menu {
+    width: 80%;
+  }
+  /******* BODY MIDDLE SECTION STYLING *****/
+
+  section.reasons {
+    margin-top: 55px;
+  }
+
+  /********* BODY LOWER SECTION STYLING ********/
+
+  article {
+    width: 95%;
+  }
+
+  img.article-image {
+    width: 95%;
+    height: 250px;
+  }
+
+  div.inner {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+  }
+
+  p.author {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p.content {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  div.intro-image {
+    height: 350px;
+  }
+}

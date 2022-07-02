@@ -2,12 +2,12 @@
 
 ![](download.jpg)
 
-This repository contains my solutions to some of the challenges on https://frontendmentor.io/ 
+This repository contains my solutions to some of the challenges on https://frontendmentor.io/
 Languages used are:
 
-* HTML
-* CSS
-* Javascript
+- HTML
+- CSS
+- Javascript
 
 ## They are built with
 
@@ -19,7 +19,9 @@ Languages used are:
 
 ## Links to solutions
 
-- Chat app css illustration master - [Live](https://bumblebig.github.io/frontend-mentor-solutions/chat-app-css-illustration-master/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/chat-app-css-illustration-master)
+- Chat app css illustration master - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/chat-app-css-illustration-master/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/chat-app-css-illustration-master)
+
+- Easybank landing page master - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/easybank-landing-page-master/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/easybank-landing-page-master)
 
 - Four card feature section master - [Live](https//:bumblebig.github.io/Frontend-mentor-solutions/four-card-feature-section-master/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/four-card-feature-section-master)
 
@@ -33,9 +35,9 @@ Languages used are:
 
 - Single price grid component master - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/single-price-grid-component-master) -[Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/single-price-grid-component-master)
 
-- Stats preview card component main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/stats-preview-card-component-main/) - [Solution](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/stats-preview-card-component-main)
+- Stats preview card component main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/stats-preview-card-component-main/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/stats-preview-card-component-main)
 
-- Testimonials grid section main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/testimonials-grid-section-main/) -[Source](https://github.com/Bumblebig/tree/main/Frontend-mentor-solutions/testimonials-grid-section-main)
+- Testimonials grid section main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/testimonials-grid-section-main/) -[Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/testimonials-grid-section-main)
 
 ## Author
 

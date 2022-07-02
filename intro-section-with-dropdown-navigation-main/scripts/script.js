@@ -1,8 +1,3 @@
-/**************  THE BOOLEAN I DECLARED, TRYING TO EMULATE DRY PROGRAMMING
-var featureArrDown = true;
-var companyArrDown = true; */
-
-
 /******** DESKTOP NAVIGATION EVENTS **********/
 
 document.getElementById('features').addEventListener('click', function() {
@@ -14,15 +9,7 @@ document.getElementById('features').addEventListener('click', function() {
 
 
 document.getElementById('company').addEventListener('click', function() {
-
-    /*** if (companyArrDown) {
-        companyArrDown = false;
-        document.querySelector('.arr-down2').src = 'images/icon-arrow-up.svg';
-    } else {
-        document.querySelector('.arr-down2').src = 'images/icon-arrow-down.svg';
-        companyArrDown = true;
-    } I'd have to repeat this for every event*/
-
+	
     secDropArrow('arr-down2', 'script2');
     dropDown('comp');
 
