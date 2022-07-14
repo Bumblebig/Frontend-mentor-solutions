@@ -1,0 +1,129 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  width: 355px;
+  background-color: hsla(213, 20%, 18%, 0.616);
+  margin: 100px auto;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+div.image {
+  background-color: hsl(213, 19%, 18%);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+img.star {
+  position: relative;
+  top: 2px;
+  left: 2.5px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+ul li {
+  cursor: pointer;
+  text-align: center;
+  list-style-type: none;
+  background-color: hsl(213, 19%, 18%);
+  width: 43px;
+  padding: 13px;
+  border-radius: 50px;
+  transition: all 0.2s ease-out;
+}
+
+ul li:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+ul li:active {
+  background-color: hsl(216, 12%, 54%);
+}
+
+button#submit {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  outline: none;
+  transition: all 0.2s ease-out;
+}
+
+button#submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+button#submit:active {
+  transform: translateY(3px);
+}
+
+.hidden {
+  display: none;
+}
+
+section.review {
+  text-align: center;
+}
+
+div.review-image {
+  margin-bottom: 20px;
+}
+
+p.result {
+  width: 160px;
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  font-size: 13px;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+}
+
+.review h1 {
+  margin-bottom: 18px;
+}
