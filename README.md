@@ -27,6 +27,8 @@ Languages used are:
 
 - Fylo dark theme landing page master - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/fylo-dark-theme-landing-page-master/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/fylo-dark-theme-landing-page-master)
 
+- Interactive rating component main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/interactive-rating-component-main/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/interactive-rating-component-main)
+
 - Intro section with dropdown navigation main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/intro-section-with-dropdown-navigation-main/) - [Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/intro-section-with-dropdown-navigation-main)
 
 - NFT preview card component main - [Live](https://bumblebig.github.io/Frontend-mentor-solutions/nft-preview-card-component-main/) -[Source](https://github.com/Bumblebig/Frontend-mentor-solutions/tree/main/nft-preview-card-component-main)
