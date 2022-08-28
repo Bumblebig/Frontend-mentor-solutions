@@ -1,0 +1,269 @@
+:root {
+  font-size: 20px;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0px auto;
+  min-width: 375px;
+  max-width: 1440px;
+  background-color: hsl(185, 41%, 84%);
+  font-weight: 700;
+  font-family: 'Space Mono', sans-serif;
+  transition: all 1s ease-out;
+}
+
+img.logo {
+  display: block;
+  margin: 60px auto 80px auto;
+}
+
+main {
+  margin: 0px auto 50px auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  width: 750px;
+  padding: 25px;
+}
+
+section.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#box-a {
+  /* background-color: pink; */
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+input {
+  display: block;
+  font-size: 1.2rem;
+  color: hsl(183, 100%, 15%);
+  font-family: 'Space Mono', sans-serif;
+  font-size: 1.2rem;
+  text-align: right;
+  border-radius: 5px;
+  background-color: hsla(185, 41%, 84%, 0.336);
+  transition: all 0.1s ease-out;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid hsl(172, 67%, 45%);
+}
+
+input::placeholder {
+  color: hsl(184, 14%, 56%);
+}
+
+input#amount {
+  background-image: url(images/icon-dollar.svg);
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position: 5px 50%;
+  background-size: 10px;
+}
+
+input.input {
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 35px;
+  padding: 3px 5px 3px 5px;
+}
+
+p.selection {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.658rem;
+  margin-bottom: 5px;
+}
+
+div.rates {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  row-gap: 10px;
+  column-gap: 18px;
+  margin-bottom: 30px;
+}
+
+li.rate {
+  /* width: 80px; */
+  background-color: hsl(183, 100%, 15%);
+  cursor: pointer;
+  list-style-type: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: hsl(189, 41%, 97%);
+  text-align: center;
+  border-radius: 3px;
+  transition: all 0.2s ease-out;
+}
+
+li.rate:hover {
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+}
+
+li.sec {
+  height: 40px;
+}
+
+input.num-input {
+  padding: 5px 7px 7px 7px;
+  height: 39px;
+}
+
+input.num-input::placeholder {
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: 'Space Mono', sans-serif;
+}
+
+div.texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+label.people {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.658rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+p.error {
+  font-size: 0.658rem;
+  color: rgb(245, 19, 19);
+  position: relative;
+  top: -2px;
+  display: none;
+}
+
+input.people-num {
+  width: 270px;
+  height: 35px;
+  background: hsla(185, 41%, 84%, 0.336) url(images/icon-person.svg) no-repeat
+    5px 50%;
+  margin-left: 3px;
+  margin-top: 3px;
+  padding: 3px 5px 3px 25px;
+}
+
+.error-border {
+  border: 2px solid rgb(245, 19, 19);
+}
+
+section#box-b {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 320px;
+  box-sizing: inherit;
+  position: relative;
+}
+
+div.tip-amount {
+  margin-top: 20px;
+}
+
+div.aside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+p.tip {
+  font-size: 0.7rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+span {
+  color: hsl(184, 14%, 56%);
+}
+
+p.dollar {
+  color: hsl(172, 67%, 45%);
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  width: 90%;
+  padding: 10px 0px;
+  margin: 0px auto;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+  border-radius: 5px;
+  font-weight: 700;
+  position: relative;
+  bottom: -20%;
+}
+
+.no-access {
+  background-color: hsla(186, 14%, 56%, 0.226);
+  color: hsla(186, 14%, 43%, 0.534);
+}
+
+button.access:hover {
+  background-color: hsl(184, 91%, 91%);
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 750px) {
+  main {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  section.main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 30px;
+  }
+
+  section#box-a,
+  section#box-b {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  input#amount {
+    width: 100%;
+  }
+
+  div.rates {
+    margin-right: auto;
+    margin-left: auto;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+
+  input#people-num {
+    width: 100%;
+  }
+}
